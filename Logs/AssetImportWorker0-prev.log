@@ -1,0 +1,600 @@
+Using pre-set license
+Built from '2021.2/release' branch; Version is '2021.2.0f1 (4bf1ec4b23c9) revision 4977132'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10 Pro; OS build 22000.438; Version 2009; 64bit' Language: 'en' Physical Memory: 16275 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.2.0f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+D:/Uni Temp/Math-Runner
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+60859
+Successfully changed project path to: D:/Uni Temp/Math-Runner
+D:/Uni Temp/Math-Runner
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 146.20 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.2.0f1 (4bf1ec4b23c9)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.2.0f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Uni Temp/Math-Runner/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA GeForce 930MX (ID=0x134e)
+    Vendor:   NVIDIA
+    VRAM:     2010 MB
+    Driver:   30.0.14.7168
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.2.0f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.2.0f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.2.0f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56796
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.2.0f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.2.0f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.010070 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 237.40 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.786 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1787ms)
+		BeginReloadAssembly (96ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (780ms)
+			LoadAssemblies (93ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (135ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (44ms)
+			SetupLoadedEditorAssemblies (536ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (14ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (238ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (222ms)
+				ProcessInitializeOnLoadMethodAttributes (60ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.010453 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Uni Temp\Math-Runner\Library\PackageCache\com.unity.visualscripting@1.7.2\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Uni Temp\Math-Runner\Library\PackageCache\com.unity.visualscripting@1.7.2\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 149.19 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.046 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3047ms)
+		BeginReloadAssembly (223ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (25ms)
+		EndReloadAssembly (2683ms)
+			LoadAssemblies (114ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (355ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (76ms)
+			SetupLoadedEditorAssemblies (2006ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (16ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (149ms)
+				BeforeProcessingInitializeOnLoad (129ms)
+				ProcessInitializeOnLoadAttributes (1557ms)
+				ProcessInitializeOnLoadMethodAttributes (140ms)
+				AfterProcessingInitializeOnLoad (14ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (13ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.11 seconds
+Refreshing native plugins compatible for Editor in 1.24 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4973 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 45 unused Assets / (2.0 MB). Loaded Objects now: 5412.
+Memory consumption went from 201.1 MB to 199.2 MB.
+Total: 6.273800 ms (FindLiveObjects: 0.464500 ms CreateObjectMapping: 0.398600 ms MarkObjects: 4.801000 ms  DeleteObjects: 0.607900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 369899.703533 seconds.
+  path: Assets/Prefabs/Road.prefab
+  artifactKey: Guid(b9138a8271fd44642b043c3dfc6afbb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Road.prefab using Guid(b9138a8271fd44642b043c3dfc6afbb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e585dd5485bf5806b77e4ec5ce1f6a12') in 0.466262 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.065307 seconds.
+  path: Assets/Tomerinio/LEDLightBlocks/Example Scene/Meshes/Props.fbx
+  artifactKey: Guid(a91bf4c43b655da4e8d9a993d00b7aab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tomerinio/LEDLightBlocks/Example Scene/Meshes/Props.fbx using Guid(a91bf4c43b655da4e8d9a993d00b7aab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a57aa609e357e2719ba2076704b86d9') in 2.434271 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.642814 seconds.
+  path: Assets/Tomerinio/LEDLightBlocks/Example Scene/Textures/Tex_Platform_Skull_S.tga
+  artifactKey: Guid(faee369a22844b54686c07f182163fa3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tomerinio/LEDLightBlocks/Example Scene/Textures/Tex_Platform_Skull_S.tga using Guid(faee369a22844b54686c07f182163fa3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '401cac7cdc186f9524c0c3b2f44c5d3d') in 0.138687 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001400 seconds.
+  path: Assets/Prefabs/Obstacle.prefab
+  artifactKey: Guid(99545d98970eb5040b58170a62856263) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Obstacle.prefab using Guid(99545d98970eb5040b58170a62856263) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6168b8063ae56f75bccbf84799cffcb4') in 0.095513 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.063515 seconds.
+  path: Assets/Tomerinio/LEDLightBlocks/Example Scene/Textures/Bricks_NRM.png
+  artifactKey: Guid(fb9dd8cd7559cc3499bc9f93948315fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tomerinio/LEDLightBlocks/Example Scene/Textures/Bricks_NRM.png using Guid(fb9dd8cd7559cc3499bc9f93948315fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2480bf3bca92f7c6df112778cec8d550') in 0.061673 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Tomerinio/LEDLightBlocks/Example Scene/Materials/Metal_A.mat
+  artifactKey: Guid(02c07345313cb814eb6dcd63462e338a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tomerinio/LEDLightBlocks/Example Scene/Materials/Metal_A.mat using Guid(02c07345313cb814eb6dcd63462e338a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69f0c8be8b594afdbab7a5984c9f569e') in 0.117970 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.044455 seconds.
+  path: Assets/Assets/rainbow.jpeg
+  artifactKey: Guid(509cecbd3a5964c41bbf1a9ec33d59c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/rainbow.jpeg using Guid(509cecbd3a5964c41bbf1a9ec33d59c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '886139c2a9f3e185370615f7d30cf971') in 0.030480 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.620226 seconds.
+  path: Assets/Tomerinio/LEDLightBlocks/Example Scene/Textures/Tex_Platform_Skull_N.tga
+  artifactKey: Guid(606857565cc0f2b4ca73520207a92175) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tomerinio/LEDLightBlocks/Example Scene/Textures/Tex_Platform_Skull_N.tga using Guid(606857565cc0f2b4ca73520207a92175) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46867a6c875c66f4bb63ad472800d6f6') in 0.095993 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.047383 seconds.
+  path: Assets/Tomerinio/LEDLightBlocks/Example Scene/Standard Assets/ParticleSystems/Textures/ParticleBokeh.png
+  artifactKey: Guid(732e2eebfe574ca47ba46cc3a67965fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tomerinio/LEDLightBlocks/Example Scene/Standard Assets/ParticleSystems/Textures/ParticleBokeh.png using Guid(732e2eebfe574ca47ba46cc3a67965fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd79ae5a753a125bed3fb63008649b1a0') in 0.011250 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.027156 seconds.
+  path: Assets/Tomerinio/LEDLightBlocks/Example Scene/Meshes/Walls.fbx
+  artifactKey: Guid(6c823a569ab4348479597ed4693bc618) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tomerinio/LEDLightBlocks/Example Scene/Meshes/Walls.fbx using Guid(6c823a569ab4348479597ed4693bc618) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ad19f8ab4871b2f47bd161f71e86aac') in 0.524127 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.039339 seconds.
+  path: Assets/Tomerinio/LEDLightBlocks/Contents/Textures/Tex_Tileable_Illum_Clean.png
+  artifactKey: Guid(53de99d4592f2524182214150a4c2931) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tomerinio/LEDLightBlocks/Contents/Textures/Tex_Tileable_Illum_Clean.png using Guid(53de99d4592f2524182214150a4c2931) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '239842534e0ab99c861ed29aa8198ceb') in 0.023185 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.021886 seconds.
+  path: Assets/Scripts/Character.cs
+  artifactKey: Guid(02f2dedfae21b0b4b97fe2dee1a38474) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Character.cs using Guid(02f2dedfae21b0b4b97fe2dee1a38474) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b099d29c4df52cddf0e3266cda0825d') in 0.004859 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.027743 seconds.
+  path: Assets/Tomerinio/LEDLightBlocks/Example Scene/Textures/Tex_StoneWall_albedo.tif
+  artifactKey: Guid(2a246724122bf1f4390198763b2c486b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tomerinio/LEDLightBlocks/Example Scene/Textures/Tex_StoneWall_albedo.tif using Guid(2a246724122bf1f4390198763b2c486b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ecea078259f16d9ca82e3fff3ece085') in 0.068262 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Tomerinio/LEDLightBlocks/Example Scene/Standard Assets/ParticleSystems/Materials/ParticleSmokeVertlit.mat
+  artifactKey: Guid(225843b6084e75440a6ea970a17c93aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tomerinio/LEDLightBlocks/Example Scene/Standard Assets/ParticleSystems/Materials/ParticleSmokeVertlit.mat using Guid(225843b6084e75440a6ea970a17c93aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69fec016092301e46db66b90053c366e') in 0.070938 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.004454 seconds.
+  path: Assets/VIASS FreeCharacter Pack/FIle prefab/VIASS_Dman.prefab
+  artifactKey: Guid(eea16ef0f58854448aaa9db9257bc84b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VIASS FreeCharacter Pack/FIle prefab/VIASS_Dman.prefab using Guid(eea16ef0f58854448aaa9db9257bc84b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'baf28c1ed1feeaac27d4fc468d431827') in 0.055665 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.099329 seconds.
+  path: Assets/Tomerinio/LEDLightBlocks/Contents/Textures/Tex_Tileable_roughness.tif
+  artifactKey: Guid(7d6463d6d1a109d41845d22f913bfa2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tomerinio/LEDLightBlocks/Contents/Textures/Tex_Tileable_roughness.tif using Guid(7d6463d6d1a109d41845d22f913bfa2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4068e485b7f0fe9a9fdbab5bfd7669f2') in 0.063486 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.012939 seconds.
+  path: Assets/Tomerinio/LEDLightBlocks/Example Scene/Materials/Cement_A.mat
+  artifactKey: Guid(ce27d762ab6fc134aa497f3470cefbb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tomerinio/LEDLightBlocks/Example Scene/Materials/Cement_A.mat using Guid(ce27d762ab6fc134aa497f3470cefbb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47171239be952da277cb12387d333bda') in 0.122899 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.091830 seconds.
+  path: Assets/Tomerinio/LEDLightBlocks/Example Scene/Textures/Detail.png
+  artifactKey: Guid(4e3779e0841aed74e84a2027a3b5bfac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tomerinio/LEDLightBlocks/Example Scene/Textures/Detail.png using Guid(4e3779e0841aed74e84a2027a3b5bfac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6879b9f6b174b40fdd50a47fa30dc686') in 0.062639 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.028163 seconds.
+  path: Assets/Tomerinio/LEDLightBlocks/Contents/Prefabs/LED_Square_Example.prefab
+  artifactKey: Guid(af5b2da1066423547ab097090fe91b15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tomerinio/LEDLightBlocks/Contents/Prefabs/LED_Square_Example.prefab using Guid(af5b2da1066423547ab097090fe91b15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4fb30fa0cdf651a4bd5edce31b93f43') in 0.019252 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.021827 seconds.
+  path: Assets/Fantasy Skybox FREE/Materials/Classic/FS000_Day_02.mat
+  artifactKey: Guid(fa95802f80bd745cfb5e9c89f7e22341) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Skybox FREE/Materials/Classic/FS000_Day_02.mat using Guid(fa95802f80bd745cfb5e9c89f7e22341) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1010375011a643809175b73486845f74') in 0.050472 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.930091 seconds.
+  path: Assets/Tomerinio/LEDLightBlocks/Example Scene/Textures/Tex_Platform_Skull_AO.tga
+  artifactKey: Guid(e848470567914ac49b4d7064ab83704f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tomerinio/LEDLightBlocks/Example Scene/Textures/Tex_Platform_Skull_AO.tga using Guid(e848470567914ac49b4d7064ab83704f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03a160303c0da28541799c582dd8841d') in 0.081570 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.044981 seconds.
+  path: Assets/Tomerinio/LEDLightBlocks/Example Scene/Standard Assets/ParticleSystems/Textures/ParticleFlamesSheet.png
+  artifactKey: Guid(4e505ad81f5b19c4cb6f445d36463955) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tomerinio/LEDLightBlocks/Example Scene/Standard Assets/ParticleSystems/Textures/ParticleFlamesSheet.png using Guid(4e505ad81f5b19c4cb6f445d36463955) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffe920e9621d92269f0e8766a21a88ff') in 0.013705 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Assets/rainbow.mat
+  artifactKey: Guid(7fa0da189085c8b4987abfca8c1b5269) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/rainbow.mat using Guid(7fa0da189085c8b4987abfca8c1b5269) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00dc606b31a884bba925509c4bc97184') in 0.016609 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.055813 seconds.
+  path: Assets/Tomerinio/LEDLightBlocks/Example Scene/Textures/Detail_NRM.png
+  artifactKey: Guid(1de2dd8c03fbd294d841468e9a90d55a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tomerinio/LEDLightBlocks/Example Scene/Textures/Detail_NRM.png using Guid(1de2dd8c03fbd294d841468e9a90d55a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef71494edbb7383594c81340114be12b') in 0.043555 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Tomerinio/LEDLightBlocks/Example Scene/Materials/Dust.mat
+  artifactKey: Guid(42898d32c17051641a16a1c4820afd25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tomerinio/LEDLightBlocks/Example Scene/Materials/Dust.mat using Guid(42898d32c17051641a16a1c4820afd25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6cd9f82f9c3738bafd26d570a0e16810') in 0.039956 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.027047 seconds.
+  path: Assets/Tomerinio/LEDLightBlocks/Example Scene/Meshes/Stairs.fbx
+  artifactKey: Guid(cbcb05563ab6bb046867a0b483b15cd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tomerinio/LEDLightBlocks/Example Scene/Meshes/Stairs.fbx using Guid(cbcb05563ab6bb046867a0b483b15cd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '674ad6dcaa3f0433990ea5723cb8cf3a') in 0.297979 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Tomerinio/LEDLightBlocks/Contents/Prefabs/LED_X_Example.prefab
+  artifactKey: Guid(660e542dbb2b7d2478865c890adcd3af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tomerinio/LEDLightBlocks/Contents/Prefabs/LED_X_Example.prefab using Guid(660e542dbb2b7d2478865c890adcd3af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2f42e88c88fab326f91f2ed182986fc') in 0.018734 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.004286 seconds.
+  path: Assets/Tomerinio/LEDLightBlocks/Example Scene/Materials/Flame.mat
+  artifactKey: Guid(26cc038733938514e81fdf80e8d14656) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tomerinio/LEDLightBlocks/Example Scene/Materials/Flame.mat using Guid(26cc038733938514e81fdf80e8d14656) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15251cd782a9c889189d286c34575099') in 0.020439 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.042356 seconds.
+  path: Assets/Fantasy Skybox FREE/Materials/Classic/FS000_Day_02_Sunless.png
+  artifactKey: Guid(a12ea62fd952d57439f49b6287da4762) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Skybox FREE/Materials/Classic/FS000_Day_02_Sunless.png using Guid(a12ea62fd952d57439f49b6287da4762) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42b1b24eef267ac5feafec91a177f2f2') in 0.121800 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.100850 seconds.
+  path: Assets/VIASS FreeCharacter Pack/File FBX/Dman_Animation/Materials/VIASS_Dman_dif.mat
+  artifactKey: Guid(c9bec74b55c30f34583fb170adb3ef8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VIASS FreeCharacter Pack/File FBX/Dman_Animation/Materials/VIASS_Dman_dif.mat using Guid(c9bec74b55c30f34583fb170adb3ef8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5987cd7636a0da3351866aa89bcbaf01') in 0.179020 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.151539 seconds.
+  path: Assets/Tomerinio/LEDLightBlocks/Contents/Textures/Tex_Tileable_normal.tif
+  artifactKey: Guid(2b77fd5cd99b64847a0a861634d4e60e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tomerinio/LEDLightBlocks/Contents/Textures/Tex_Tileable_normal.tif using Guid(2b77fd5cd99b64847a0a861634d4e60e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '023f712eb7f3e1a6c69e88ea3addb433') in 0.050824 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.057646 seconds.
+  path: Assets/Tomerinio/LEDLightBlocks/Example Scene/Standard Assets/ParticleSystems/Materials/ParticleFlames.mat
+  artifactKey: Guid(3bfa2f095c911d649bf4cb92a55ac974) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tomerinio/LEDLightBlocks/Example Scene/Standard Assets/ParticleSystems/Materials/ParticleFlames.mat using Guid(3bfa2f095c911d649bf4cb92a55ac974) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a04a6ce70bbf1f3c9f7c2fb1d44f9f0e') in 0.037883 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.024071 seconds.
+  path: Assets/Tomerinio/LEDLightBlocks/Example Scene/Textures/Tex_StoneWall_ao.tif
+  artifactKey: Guid(6b3ad34940917664d856f0f679c3eddf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tomerinio/LEDLightBlocks/Example Scene/Textures/Tex_StoneWall_ao.tif using Guid(6b3ad34940917664d856f0f679c3eddf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12bbcdb3ed3981a3b51b9008a321e83f') in 0.034172 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.047672 seconds.
+  path: Assets/Assets/BoxCat-Games-Epic-Song.mp3
+  artifactKey: Guid(a2f88c42c033abb4581b1493c9dba322) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/BoxCat-Games-Epic-Song.mp3 using Guid(a2f88c42c033abb4581b1493c9dba322) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '218b1d0f39b868e66c126f23a0e32ed5') in 0.081845 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.023120 seconds.
+  path: Assets/Tomerinio/LEDLightBlocks/Example Scene/Standard Assets/ParticleSystems/Materials/ParticleSmokeBlack.mat
+  artifactKey: Guid(fc626cffedc907848a7b47b87aa5e34f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tomerinio/LEDLightBlocks/Example Scene/Standard Assets/ParticleSystems/Materials/ParticleSmokeBlack.mat using Guid(fc626cffedc907848a7b47b87aa5e34f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6ddcf983672a357b5e6652cd0ecc5c1') in 0.042623 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.055406 seconds.
+  path: Assets/Tomerinio/LEDLightBlocks/Example Scene/Textures/Stone_B.png
+  artifactKey: Guid(067351177273358488c16a7a314503fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tomerinio/LEDLightBlocks/Example Scene/Textures/Stone_B.png using Guid(067351177273358488c16a7a314503fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44365ac322bc4a52a9592c382610c244') in 0.041068 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.101669 seconds.
+  path: Assets/VIASS FreeCharacter Pack/File FBX/Dman_Animation/VIASS_Dman_Skin.fbx
+  artifactKey: Guid(d49af8694c5ff854eae4c1f1f307bdd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VIASS FreeCharacter Pack/File FBX/Dman_Animation/VIASS_Dman_Skin.fbx using Guid(d49af8694c5ff854eae4c1f1f307bdd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd81d9c157275e908af73a7259e9c0cfc') in 0.080981 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.050262 seconds.
+  path: Assets/VIASS FreeCharacter Pack/FileTexture/VIASS_Dman_dif.png
+  artifactKey: Guid(1e1bd48fc756d7b4ea759a3679d79569) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VIASS FreeCharacter Pack/FileTexture/VIASS_Dman_dif.png using Guid(1e1bd48fc756d7b4ea759a3679d79569) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbe9393cff4bc10ae8f8c8850ca46476') in 0.026260 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001211 seconds.
+  path: Assets/VIASS FreeCharacter Pack/File FBX/Materials/VIASS_Dman_dif.mat
+  artifactKey: Guid(88dd65b20ec6b0640ae33ca263b5ba09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VIASS FreeCharacter Pack/File FBX/Materials/VIASS_Dman_dif.mat using Guid(88dd65b20ec6b0640ae33ca263b5ba09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6bf9e26962f9d93a17c35872c73d31da') in 0.028507 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Tomerinio/LEDLightBlocks/Example Scene/Standard Assets/ParticleSystems/Materials/ParticleSmokeWhite.mat
+  artifactKey: Guid(c50d77affeb31e14c9c062c282f13fc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tomerinio/LEDLightBlocks/Example Scene/Standard Assets/ParticleSystems/Materials/ParticleSmokeWhite.mat using Guid(c50d77affeb31e14c9c062c282f13fc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2646979a5d63498933fa9b2c43e1e4e9') in 0.039788 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Tomerinio/LEDLightBlocks/Example Scene/Materials/Platform_Skull_Emissive.mat
+  artifactKey: Guid(dcbf35daa84d31d46af8a5b2a6183db2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tomerinio/LEDLightBlocks/Example Scene/Materials/Platform_Skull_Emissive.mat using Guid(dcbf35daa84d31d46af8a5b2a6183db2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60cef5be7413e98f4be8cea1191cee3e') in 0.360475 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Assets/platform.mat
+  artifactKey: Guid(f4330b3edf0a39443bba085a4698df8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/platform.mat using Guid(f4330b3edf0a39443bba085a4698df8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e29b3749221583cc3889c0e62609b6ba') in 0.016792 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.014171 seconds.
+  path: Assets/Tomerinio/LEDLightBlocks/Contents/Textures/Tex_Tileable.png
+  artifactKey: Guid(3222a9c550eb588429237a20c31d4a91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tomerinio/LEDLightBlocks/Contents/Textures/Tex_Tileable.png using Guid(3222a9c550eb588429237a20c31d4a91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c5ca3a6d944fa85b0e819297daf95bd') in 0.013530 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.097454 seconds.
+  path: Assets/Tomerinio/LEDLightBlocks/Example Scene/Textures/Metal_A.png
+  artifactKey: Guid(458e455e30a8bbc4ab316e64cc8995c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tomerinio/LEDLightBlocks/Example Scene/Textures/Metal_A.png using Guid(458e455e30a8bbc4ab316e64cc8995c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19e15a6f94958e1b1a0dc8280c50c492') in 0.032917 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.029156 seconds.
+  path: Assets/VIASS FreeCharacter Pack/File FBX/VIASS_Dman.fbx
+  artifactKey: Guid(c2e73530bce2b8f4ea66caa6de992f71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VIASS FreeCharacter Pack/File FBX/VIASS_Dman.fbx using Guid(c2e73530bce2b8f4ea66caa6de992f71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e6f6dd0e06dd84fbeab2507f1e4a662') in 0.054798 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.023897 seconds.
+  path: Assets/Fantasy Skybox FREE/Materials/Classic/FS000_Day_02.png
+  artifactKey: Guid(88c467166db994146961f1ecc5fc214e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Skybox FREE/Materials/Classic/FS000_Day_02.png using Guid(88c467166db994146961f1ecc5fc214e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5140b4cef983270ce6458a867c4e2cca') in 0.041174 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.047238 seconds.
+  path: Assets/Tomerinio/LEDLightBlocks/Example Scene/Standard Assets/ParticleSystems/Textures/ParticleCloudWhite.png
+  artifactKey: Guid(5b303ff28ad9368468a2edd759cf458d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tomerinio/LEDLightBlocks/Example Scene/Standard Assets/ParticleSystems/Textures/ParticleCloudWhite.png using Guid(5b303ff28ad9368468a2edd759cf458d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86ab1995ab4c105afe21c257a32001ee') in 0.023424 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.560699 seconds.
+  path: Assets/Tomerinio/LEDLightBlocks/Example Scene/Textures/Tex_Platform_Skull_A.tga
+  artifactKey: Guid(e18538a7b62e0894bb756091221954b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tomerinio/LEDLightBlocks/Example Scene/Textures/Tex_Platform_Skull_A.tga using Guid(e18538a7b62e0894bb756091221954b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ebbfab61fa4c5cb4f35c6548ccb9cd2') in 0.033095 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.110372 seconds.
+  path: Assets/Tomerinio/LEDLightBlocks/Example Scene/Textures/Stone_B_NRM.png
+  artifactKey: Guid(8d0d3b71bc4bef848acce59b4635d9e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tomerinio/LEDLightBlocks/Example Scene/Textures/Stone_B_NRM.png using Guid(8d0d3b71bc4bef848acce59b4635d9e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c3eba5f76aa1c20d258e8a7ddcbe6bf') in 0.033563 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.179264 seconds.
+  path: Assets/Tomerinio/LEDLightBlocks/Example Scene/Meshes/Arches.fbx
+  artifactKey: Guid(c5a0cbaff03e01547841e9d71417ea60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tomerinio/LEDLightBlocks/Example Scene/Meshes/Arches.fbx using Guid(c5a0cbaff03e01547841e9d71417ea60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6199b91f4e492048e06e2e189b41598') in 0.176686 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.043326 seconds.
+  path: Assets/Tomerinio/LEDLightBlocks/Contents/Textures/Tex_Tileable_height.tif
+  artifactKey: Guid(723aa10f910c0ea41a0b9d9629dfede3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tomerinio/LEDLightBlocks/Contents/Textures/Tex_Tileable_height.tif using Guid(723aa10f910c0ea41a0b9d9629dfede3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15b25b0f4b8b3ca80c51c8f38df4576e') in 0.072492 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.019475 seconds.
+  path: Assets/VIASS FreeCharacter Pack/File Material/Materials_VIASS_Dman/VIASS_Dman_dif.mat
+  artifactKey: Guid(fcfc1f26354628848bb0098d0594e1b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VIASS FreeCharacter Pack/File Material/Materials_VIASS_Dman/VIASS_Dman_dif.mat using Guid(fcfc1f26354628848bb0098d0594e1b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82a2b843114bf9c146584ea615d3228e') in 0.036313 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.026701 seconds.
+  path: Assets/Fonts/Pacifico-Regular.ttf
+  artifactKey: Guid(855c2db9c2b263344a5064bea188bd9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fonts/Pacifico-Regular.ttf using Guid(855c2db9c2b263344a5064bea188bd9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47ffbe2ed455e5b3e1862036819d1aa4') in 0.037973 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.048783 seconds.
+  path: Assets/Tomerinio/LEDLightBlocks/Example Scene/Standard Assets/ParticleSystems/Textures/ParticleCloudBlack.png
+  artifactKey: Guid(830884c18cf5e7a4895ee02c2dcd8e12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tomerinio/LEDLightBlocks/Example Scene/Standard Assets/ParticleSystems/Textures/ParticleCloudBlack.png using Guid(830884c18cf5e7a4895ee02c2dcd8e12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4cf05d7017b23dbd04f65f52c785b2e3') in 0.016741 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001777 seconds.
+  path: Assets/Tomerinio/LEDLightBlocks/Example Scene/Standard Assets/ParticleSystems/Prefabs/FireMobile.prefab
+  artifactKey: Guid(b99a0a5998b2736429fd2a2fd1d01c5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tomerinio/LEDLightBlocks/Example Scene/Standard Assets/ParticleSystems/Prefabs/FireMobile.prefab using Guid(b99a0a5998b2736429fd2a2fd1d01c5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f86fc5a1893886b909fa23ed2807083') in 0.026556 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.792739 seconds.
+  path: Assets/Tomerinio/LEDLightBlocks/Example Scene/Textures/Tex_Platform_Skull_E.tga
+  artifactKey: Guid(e8810096ea9a5254a84b15cea9503e1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tomerinio/LEDLightBlocks/Example Scene/Textures/Tex_Platform_Skull_E.tga using Guid(e8810096ea9a5254a84b15cea9503e1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f9d89a7b32c390b048b3d4d873ff3c0') in 0.025032 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Tomerinio/LEDLightBlocks/Example Scene/Materials/Stone_B.mat
+  artifactKey: Guid(8786ddb73d132334086ec1a9f1871797) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tomerinio/LEDLightBlocks/Example Scene/Materials/Stone_B.mat using Guid(8786ddb73d132334086ec1a9f1871797) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff61cc221fbc84ec3a525ff984abb417') in 0.096000 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.015626 seconds.
+  path: Assets/Tomerinio/LEDLightBlocks/Contents/Prefabs/LED_Tube.prefab
+  artifactKey: Guid(20d1a925ab1a84b4881c253bf4a32c09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tomerinio/LEDLightBlocks/Contents/Prefabs/LED_Tube.prefab using Guid(20d1a925ab1a84b4881c253bf4a32c09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '835d35a56fcee8034b3adbf516ed4b73') in 0.020122 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.063885 seconds.
+  path: Assets/Tomerinio/LEDLightBlocks/Example Scene/Textures/Metal_A_NRM.png
+  artifactKey: Guid(8a9ea71e2205a3840a0b70323f63455f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tomerinio/LEDLightBlocks/Example Scene/Textures/Metal_A_NRM.png using Guid(8a9ea71e2205a3840a0b70323f63455f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1853825c577b5bcff0747d1375c08aaa') in 0.069638 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001052 seconds.
+  path: Assets/Tomerinio/LEDLightBlocks/Example Scene/Materials/M_StoneWall.mat
+  artifactKey: Guid(9e0fa1e433432b74ca5fad67a567eeec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tomerinio/LEDLightBlocks/Example Scene/Materials/M_StoneWall.mat using Guid(9e0fa1e433432b74ca5fad67a567eeec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c7c4f1a0af7461d7f16b2bab6277cfd') in 0.319911 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.065426 seconds.
+  path: Assets/Tomerinio/LEDLightBlocks/Example Scene/Textures/Cement_A.png
+  artifactKey: Guid(7eecb50e2673b7941912a83698b951d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tomerinio/LEDLightBlocks/Example Scene/Textures/Cement_A.png using Guid(7eecb50e2673b7941912a83698b951d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6a6737405175a87a8e406b05bdc9c78') in 0.028138 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.016444 seconds.
+  path: Assets/Tomerinio/LEDLightBlocks/Example Scene/Materials/Platform_Skull.mat
+  artifactKey: Guid(142c3b583dd41ee4bb08dcab10ae5bfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tomerinio/LEDLightBlocks/Example Scene/Materials/Platform_Skull.mat using Guid(142c3b583dd41ee4bb08dcab10ae5bfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19c397f2f4ca5153593f2875b2ec7943') in 0.162276 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.068722 seconds.
+  path: Assets/Tomerinio/LEDLightBlocks/Example Scene/Textures/Bricks.png
+  artifactKey: Guid(80d0f9e3952a7c94dbdb63e6181af161) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tomerinio/LEDLightBlocks/Example Scene/Textures/Bricks.png using Guid(80d0f9e3952a7c94dbdb63e6181af161) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91e903bf51dee95977be8549cf8b4675') in 0.027843 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.028786 seconds.
+  path: Assets/Tomerinio/LEDLightBlocks/Example Scene/Textures/Fire_Dust.psd
+  artifactKey: Guid(6d3d00f58c3752840b1fba7926db21e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tomerinio/LEDLightBlocks/Example Scene/Textures/Fire_Dust.psd using Guid(6d3d00f58c3752840b1fba7926db21e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72af69d3660ba81b274f6abfd71a03b2') in 0.039783 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000752 seconds.
+  path: Assets/Tomerinio/LEDLightBlocks/Example Scene/Standard Assets/ParticleSystems/Materials/ParticleSmokeMobile.mat
+  artifactKey: Guid(473d6d3ec0d161b4a85e466c8c6da3fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tomerinio/LEDLightBlocks/Example Scene/Standard Assets/ParticleSystems/Materials/ParticleSmokeMobile.mat using Guid(473d6d3ec0d161b4a85e466c8c6da3fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0510629185951c20ee9c7683fb09300') in 0.012637 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.038225 seconds.
+  path: Assets/Tomerinio/LEDLightBlocks/Example Scene/Audio/fire3.mp3
+  artifactKey: Guid(021399294d43b1247bd9bbfff3510ff6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tomerinio/LEDLightBlocks/Example Scene/Audio/fire3.mp3 using Guid(021399294d43b1247bd9bbfff3510ff6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a74885cb38fc80f68451ebb960893073') in 0.009908 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.036627 seconds.
+  path: Assets/Assets/platform.jpg
+  artifactKey: Guid(b47de53802457f14c9488eb923c1ae19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/platform.jpg using Guid(b47de53802457f14c9488eb923c1ae19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef76ea06e1b036d58061a5d2078574e8') in 0.084602 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.055761 seconds.
+  path: Assets/Tomerinio/LEDLightBlocks/Example Scene/Materials/Bricks.mat
+  artifactKey: Guid(2a45119b6529db041a79e08b385c40de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tomerinio/LEDLightBlocks/Example Scene/Materials/Bricks.mat using Guid(2a45119b6529db041a79e08b385c40de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4cac28ebc31f936e0071560d96de9f91') in 0.105773 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.045847 seconds.
+  path: Assets/Tomerinio/LEDLightBlocks/Contents/Materials/M_LEDBlue.mat
+  artifactKey: Guid(d2f6c6d261ec30d4788e33a9951a2ef5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tomerinio/LEDLightBlocks/Contents/Materials/M_LEDBlue.mat using Guid(d2f6c6d261ec30d4788e33a9951a2ef5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0427064e19c26a02f0187746ae02d7d4') in 0.030940 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.005148 seconds.
+  path: Assets/Tomerinio/LEDLightBlocks/Contents/Prefabs/LED_Node.prefab
+  artifactKey: Guid(a8fa3d785a0778c45ad2984740895d5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tomerinio/LEDLightBlocks/Contents/Prefabs/LED_Node.prefab using Guid(a8fa3d785a0778c45ad2984740895d5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a890d929c031abfe8514b4868fa7005d') in 0.022297 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.026346 seconds.
+  path: Assets/Fantasy Skybox FREE/Materials/Classic/FS000_Day_02_Sunless.mat
+  artifactKey: Guid(99a400087584f4263b1a8979d6007ad4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Skybox FREE/Materials/Classic/FS000_Day_02_Sunless.mat using Guid(99a400087584f4263b1a8979d6007ad4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae05fe42a935314e0cecf21eb8f2cfed') in 0.030458 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.052175 seconds.
+  path: Assets/Tomerinio/LEDLightBlocks/Example Scene/Meshes/Floors.fbx
+  artifactKey: Guid(d557ab4a381fb044aa9e3ccc9981b24e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tomerinio/LEDLightBlocks/Example Scene/Meshes/Floors.fbx using Guid(d557ab4a381fb044aa9e3ccc9981b24e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98a5faf0ac1c50951e16c10d42a29634') in 0.222087 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.064390 seconds.
+  path: Assets/Tomerinio/LEDLightBlocks/Example Scene/Textures/Cement_A_NRM.png
+  artifactKey: Guid(e8458bbdb96bad8489f99fa159e0a199) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tomerinio/LEDLightBlocks/Example Scene/Textures/Cement_A_NRM.png using Guid(e8458bbdb96bad8489f99fa159e0a199) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40edcf6993335b806285e932c6ba5644') in 0.041665 seconds 
